@@ -6,7 +6,8 @@ This project extends the Pipecat Phone Chatbot example (https://github.com/pipec
   
 * **Post-Call Summary**: Logs call duration, silence events, and other call statistics to a call_summary.log file for post-call analysis.
 
-![image](https://github.com/user-attachments/assets/976b2199-99b5-423b-ab28-81151903a90f)
+<img width="357" alt="image" src="https://github.com/user-attachments/assets/37453b29-17c2-4f58-96f4-50eca74ccc4b" />
+
 
 
 **SETUP AND INSTALLATION**
