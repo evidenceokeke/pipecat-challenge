@@ -75,8 +75,8 @@ This project extends the Pipecat Phone Chatbot example (https://github.com/pipec
 
 **IMPLEMENTATION DETAILS**
 
-1. Silent detection implemented on simple_dialin.py using Pipecat's ```UserIdleProcessor```
-2. Post-Call summary implemented on simple_dialin.py using Loguru's ```loggers```. It begins when the first participant joins the call.
+1. Silent detection implemented on ```simple_dialin.py``` using Pipecat's ```UserIdleProcessor```
+2. Post-Call summary implemented on ```simple_dialin.py``` using Loguru's ```loggers```. It begins when the first participant joins the call.
 
 **RESOURCES**
 1. Detecting Idle Users: https://docs.pipecat.ai/guides/fundamentals/detecting-user-idle
