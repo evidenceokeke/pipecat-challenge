@@ -3,10 +3,13 @@
 This project extends the Pipecat Phone Chatbot example (https://github.com/pipecat-ai/pipecat/tree/main/examples/phone-chatbot) by adding the following functionalities:
 
 * **Silence Detection**: Detects 10+ seconds of silence and plays a TTS prompt to check if the caller is still present. After three unanswered prompts, the call is gracefully terminated.
+  ![image](https://github.com/user-attachments/assets/12d0924f-d2cc-4d6a-8aab-c3512e085e8b)
+
   
 * **Post-Call Summary**: Logs call duration, silence events, and other call statistics to a call_summary.log file for post-call analysis.
+  ![image](https://github.com/user-attachments/assets/f1077d4e-3d66-404e-bae0-140f218d8acc)
 
-<img width="357" alt="image" src="https://github.com/user-attachments/assets/37453b29-17c2-4f58-96f4-50eca74ccc4b" />
+
 
 
 
@@ -44,6 +47,8 @@ This project extends the Pipecat Phone Chatbot example (https://github.com/pipec
 
    or with your custom domain if you are using the paid version. You can also run it locally as well.
 
+ 
+
 
 **RUNNING THE APPLICATION**
 1. Start the bot runner service:
@@ -62,7 +67,8 @@ This project extends the Pipecat Phone Chatbot example (https://github.com/pipec
       }
    }'
    ```
-   ![image](https://github.com/user-attachments/assets/c457489d-d9d5-451a-a2ae-1b9b82d95b29)
+    <img width="357" alt="image" src="https://github.com/user-attachments/assets/37453b29-17c2-4f58-96f4-50eca74ccc4b" />
+
 
 3. Click on the Daily room link providec in the response. It may take a moment for the bot to join. To trigger silent detection prompt, remain silent for 10 seconds or longer.
 
