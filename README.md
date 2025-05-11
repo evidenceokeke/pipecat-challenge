@@ -15,7 +15,7 @@ This project extends the Pipecat Phone Chatbot example (https://github.com/pipec
 2. Clone the repository:
    ```
    git clone <your-fork-url>
-   cd phone-phonechat
+   cd phone-chatbot
    ```
 3. Create an activate a virtual environment
    ```
